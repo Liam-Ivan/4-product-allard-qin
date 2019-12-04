@@ -2,3 +2,10 @@
     color: #fff!important;
     background-color: #203070!important
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
