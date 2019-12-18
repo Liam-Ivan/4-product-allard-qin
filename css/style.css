@@ -6,8 +6,6 @@
 /* Bottom right text */
 .text-block {
   position: absolute;
-  top: 50px;
-  left: 50px;
   background-color: rgba(255, 255, 255, .8);
   color: black;
   padding-left: 20px;
@@ -27,5 +25,5 @@
 }
 
 .white-shade {
-    background-color: rgba(255, 255,255, .4);
+    background-color: rgba(255, 255,255, .2);
 }
