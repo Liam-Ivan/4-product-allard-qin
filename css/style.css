@@ -25,3 +25,7 @@
     text-align: center;
     
 }
+
+.white-shade {
+    background-color: rgba(255, 255,255, .4);
+}
