@@ -1,29 +1,21 @@
-/* Container holding the image and the text */
-.container {
-  position: relative;
+a {
+    color: black;
+    background-color: #607d8b;
+    text-decoration: none;
 }
 
-/* Bottom right text */
-.text-block {
-  position: absolute;
-  background-color: rgba(255, 255, 255, .8);
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 3vw;
+a:hover {
+    text-decoration: underline;
 }
 
-.header-block {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width:100%;
-    background-color: rgba(255, 255,255, .8);
-    color:white;
-    text-align: center;
-    
+.darken {
+  filter: /*sepia(0%)*/ saturate(200%) brightness(80%) hue-rotate(180deg);
 }
 
-.white-shade {
-    background-color: rgba(255, 255,255, .2);
+.darken2 {
+  filter: /*sepia(0%)*/ saturate(60%) brightness(80%) hue-rotate(180deg);
+}
+
+.style-opacity {
+    opacity: 85%
 }
